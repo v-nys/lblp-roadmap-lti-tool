@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "roadmap-lti-tool"
+version = "0.1.0"
+description = "An LTI (Learning Tools Interoperability) tool intended to visualize students' progress through a learning path."
+authors = ["Vincent Nys <vincentnys@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+0flask = "^0.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
